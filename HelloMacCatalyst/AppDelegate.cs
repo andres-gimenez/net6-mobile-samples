@@ -24,7 +24,7 @@ namespace HelloiOS
             vc.View.AddSubview (new UILabel (Window.Frame)
             {
                 TextAlignment = UITextAlignment.Center,
-                Text = "Hello, .NET 6!",
+                Text = "Hello, .NET 8! MacCatalyst",
                 TextColor = UIColor.Blue,
             });
             Window.RootViewController = vc;
